@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/competence.css">
+    <title>Compétence</title>
+
+</head>
+<body>
+
+    <nav>
+        <a href="index.html"><img src="/img/initiale1.png" alt="logo" width="20%"></a>
+        <button class="menu-toggle">☰</button>
+        <div class="liens">
+            <a href="cv.html">cv</a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="contact.html">contact</a>
+            <a class="grisé" href="">competence</a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <form id="compForm">
+                <h2>Ajouter une compétence</h2>
+                <input type="text" id="nom" placeholder="Nom de la compétence" required>
+                <textarea id="description" placeholder="Description (optionnelle)"></textarea>
+                <select id="niveau" required>
+                    <option value="debutant">Débutant</option>
+                    <option value="intermediaire">Intermédiaire</option>
+                    <option value="avance">Avancé</option>
+                </select>
+                <button type="submit">Ajouter</button>
+            </form>
+         
+            <div id="listeComp"></div>
+         </div>
+    </header>
+    <script src="/js/comp.js"></script>
+</body>
+</html>

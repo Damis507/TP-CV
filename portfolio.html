@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/portfolio.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="/img/initiale1.png" alt="logo" width="20%"></a>
+        <button class="menu-toggle">☰</button>
+        <div class="liens">
+            <a href="cv.html">cv</a>
+            <a href="">portfolio</a>
+            <a href="contact.html">contact</a>
+            <a href="/competence.html">competence</a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="box">
+            <div>
+                <img src="/img/moodboard.png" alt="" width="50%">
+                <h3>Projet minia</h3>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo cumque consequatur veritatis fuga harum ex. Omnis excepturi sapiente dolor consequatur id, illum voluptatem facilis! Inventore iste modi veniam exercitationem mollitia.
+                <br> <br> lien projet: text  <span style="color: rgb(42, 125, 46);">___________________________</span> 
+            </p>
+        </div>
+
+        <div class="box">
+            <div>
+                <img src="/img/run_girl.png" alt="" width="50%">
+                <h3>Projet Sport</h3>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error esse numquam quaerat, amet ut doloremque consequatur eos, dignissimos, eveniet modi dolore nobis. Ipsa voluptatem nemo a adipisci deserunt vitae! Dicta.
+                <br> <br> lien projet: text <span style="color: rgb(42, 125, 46);">___________________________</span> 
+            </p>
+        </div>
+
+        <div class="box">
+            <div>
+                <img src="/img/fruit.png" alt="" width="50%">
+                <h3>Projet Fruit</h3>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error esse numquam quaerat, amet ut doloremque consequatur eos, dignissimos, eveniet modi dolore nobis. Ipsa voluptatem nemo a adipisci deserunt vitae! Dicta.
+                <br> <br> lien projet: text  <span style="color: rgb(42, 125, 46);">___________________________</span> 
+            </p>
+        </div>
+
+        <div class="box">
+            <div>
+                <img src="/img/voiture.png" alt="" width="50%">
+                <h3>Projet voiture</h3>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error esse numquam quaerat, amet ut doloremque consequatur eos, dignissimos, eveniet modi dolore nobis. Ipsa voluptatem nemo a adipisci deserunt vitae! Dicta.
+                <br> <br> lien projet: text <span style="color: rgb(42, 125, 46);">___________________________</span> 
+            </p>
+        </div>
+    </header>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const liens = document.querySelector('.liens');
+
+        menuToggle.addEventListener('click', () => {
+            liens.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
